@@ -67,6 +67,11 @@ body {
   color: #fff;
 }
 
+img {
+  width: 500px;
+  height: auto;
+}
+
 
 footer {
     padding: 30px 0;
