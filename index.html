@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Project Name</title>
+  <title>Indy Graphics</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <!-- Importing Font-Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Linking the main CSS Document -->
   <link rel="stylesheet" href="css/styles.css">
-
+<!--
+CONTENT ON PAGE!!!
+All content on this page is from Indy Graphics Inc. http://indygraphics.ca/
+    -->
 </head>
 <body>
   <!--==========================================================================
@@ -24,13 +27,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Project Name</a>
+            <a class="navbar-brand" href="/" title="Go to Homepage.">Indy Graphics</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#header" title="Go to homepage.">Home</a></li>
+                <li><a href="#about" title="Go to About Page.">About</a></li>
+                <li><a href="#products" title="Go to Products Page.">Products</a></li>
+                <li><a href="#contact" title="Go to Contact Form.">Contact</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -39,41 +43,168 @@
   <!--==========================================================================
     HEADER
   ===========================================================================-->
-  <header role="header" id="top" class="header">
-    <div class="text-vertical-center">
-      <h1>Project Name</h1>
-      <h3>This is a blank Website.</h3>
+  <header id="header" role="header" id="top" class="header">
+    <div class="text-vertical-center" role="banner">
+      <h1 id="hero-text">Indy Graphics</h1>
+      <h3 id="hero-text">One Source For All Your Print Needs</h3>
       <br>
-      <a href="#about" class="btn btn-dark btn-lg">Find Out More...</a>
+      <a href="#home" class="btn btn-dark btn-lg">Find Out More...</a>
     </div>
   </header>
   <!--==========================================================================
     MAIN
   ===========================================================================-->
   <main role="main">
+
+    <!-- Home Section =======================================================-->
+    <section id="home">
+      <div class="container home-p">
+        <h2>Welcome to Indy Graphics</h2>
+        <p>
+          For over 25 years Indy Graphics has been providing print products to customers from our local area to the four corners of the world.
+          We bring experience from many types of printing to make sure you receive the service, quality and price that you require.
+          Our vast range of products allow us to be the right choice for your project large or small. <br>
+          We have partnered with other manufacturers to bring all of your print needs under one roof.
+        </p>
+        <p>
+          No more dealing with multiple suppliers wasting time and energy, just one number to call and one company to bring it all together. <br>
+          From basic labels &amp; decals with and without CSA certification, Lamicoids and forms to subsurface printing with specialty 3M adhesives for powder coat or rough textured surfaces we can handle it all.
+        </p>
+      </div>
+    </section>
+    <!-- /.container -->
+
+    <!-- About Section ======================================================-->
     <section id="about">
       <div class="container">
-        <h2><span class="fa fa-user fa-2x"></span> About</h2>
+        <h2>About</h2>
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-8">
-            <p>This is Text.</p>
+            <p>
+              Over 25 years ago Indy Graphics was started with a vision to provide top quality print products all in one place. The largest complaint heard in the market was having to source from so many different companies for all the different print needs.
+            </p>
+            <p>
+              Indy Graphics identified the problem and created a one source approach for print needs, from labels, decals, forms, brochures
+              to metal plates, lamacoids and even promotional products.
+
+            </p>
+            <p>
+              We have partnered with top quality trade manufactures to provide anything that Indy Graphics does not complete in house.
+              Our volumes purchased over each year allow us to provide quality, price and service to our clients that makes your purchasing easier.
+            </p>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
-            <img src="img/about.jpg" alt="">
+            <img src="#" alt="">
           </div>
         </div>
         <!-- /.row -->
       </div>
     </section>
 <!-- /.container -->
+
+<!-- Products Section =======================================================-->
+<section id="products">
+  <div class="container">
+    <h2>Products</h2>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <ul>
+          <li>Labels &amp; Decals</li>
+          <li>Brochures</li>
+          <li>Cards</li>
+          <li>Forms</li>
+          <li>Invoices</li>
+          <li>Small Signs</li>
+          <li>Metal Nameplates</li>
+          <li>Lexan Nameplates</li>
+          <li>Lamicoids</li>
+          <li>Promotional Products</li>
+          <li>Business Cards</li>
+          <li>Much More...</li>
+        </ul>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <img src="img/products.jpg" alt="Indy Graphics Business Cards." />
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /.container -->
+
+<!-- Contact Section ========================================================-->
 <section id="contact">
   <div class="container">
-    <h2><span class="fa fa-phone fa-2x"></span> Contact</h2>
+    <h2>Contact</h2>
+    <form class="form-group" action="index.html" method="post">
+      <div class="row">
+        <section class="col-sm-12 col-md-6 col-lg-6">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <h3>Phone</h3>
+              <a href="tel:9058322780">(905) 832-2780</a>
+              <br>
+              <h3>Mailing Address</h3>
+              <p>
+                33 Dairy Drive, Acton, <br>
+                Ontario, Canada L7J 2X8
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <h3>Email</h3>
+              <a href="mailto:sales@indygraphics.ca">sales@indygraphics.ca</a>
+
+              <h3>Business Hours</h3>
+              <p>
+                Monday: 9:00 AM – 5:00 PM
+              <br>
+              Tuesday: 9:00 AM – 5:00 PM
+              <br>
+              Wednesday: 9:00 AM – 5:00 PM
+              <br>
+              Thrusday: 9:00 AM – 5:00 PM
+              <br>
+              Friday: 9:00 AM – 5:00 PM
+              <br>
+              Saturday: Closed
+              <br>
+              Sunday: Closed
+              <br>
+              Holidays: Closed
+              </p>
+            </div>
+          </div>
+        </section>
+        <form role="form" class="form-group" action="index.html" method="post">
+          <section class="col-sm-12 col-md-6 col-lg-6">
+            <label for="firstName" class="sr-only" aria-hidden="true" aria-describedby="first-name-describe" >First Name:</label>
+            <input class="form-control" type="text" name="firstName" aria-required="true" placeholder="First Name">
+            <br>
+            <label for="lastName" class="sr-only" aria-hidden="true" aria-describedby="last-name-describe">Last Name:</label>
+            <input class="form-control" type="text" name="lastName" aria-required="true" placeholder="Last Name">
+            <br>
+            <label for="companyName" class="sr-only" aria-hidden="true" aria-describedby="company-name-describe">Company Name:</label>
+            <input class="form-control" type="text" name="companyName" aria-required="true" placeholder="Company Name">
+            <br>
+            <label for="email" class="sr-only" aria-hidden="true" aria-describedby="email-describe">Email Address:</label>
+            <input class="form-control" type="text" name="email" aria-required="true" placeholder="Email Address">
+            <br>
+            <label for="address" class="sr-only" aria-hidden="true" aria-describedby="address-describe">Address:</label>
+            <input class="form-control" type="text" name="address" aria-required placeholder="Address">
+            <br>
+            <label for="message" class="sr-only" aria-hidden="true" aria-describedby="message-describe">Message</label>
+            <textarea class="form-control" name="message" rows="8" cols="40" aria-required placeholder="Message"></textarea>
+            <br>
+            <button role="button" class="btn btn-primary btn-block" type="button" name="button" aria-busy="true">Send Message</button>
+          </section>
+        </form>
+      </div>
+
   </div>
+</section>
 <!-- /.container -->
   </main>
 <footer role="footer">
-  <p class="container">Copyright &copy; <a href="http://matthewthoms.com/">Matthew Thoms Media</a></p>
+  <p class="container">Styling Copyright &copy; <a href="http://matthewthoms.com/">Matthew Thoms Media</a></p>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>

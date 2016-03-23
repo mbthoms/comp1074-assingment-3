@@ -62,9 +62,17 @@ body {
     background-color: rgba(255,255,255,0.8);
 }
 
-#about {
+#home, #products  {
   background-color: #333;
   color: #fff;
+}
+
+.home-p{
+  padding: 50px 0px;
+}
+
+#hero-text {
+  -webkit-text-stroke: 1px black;
 }
 
 img {
@@ -82,4 +90,7 @@ footer {
 
 footer a {
   color: #fff;
+}
+section {
+  padding: 30px 0px;
 }
